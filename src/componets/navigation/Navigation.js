@@ -3,7 +3,7 @@ import './Navigation.css';
 function Navigation() {
   return (
     <div className="Nav">
-      <p>sign out</p>
+      <p className='f3 link dim underline p3 pointer '>sign out</p>
     </div>
   );
 }
