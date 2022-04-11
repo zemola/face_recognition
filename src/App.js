@@ -1,16 +1,19 @@
 import './App.css';
 import Navigation from './componets/navigation/Navigation';
 import Logo from './componets/Logo/logo';
+import { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Sugba sungbA</h1>
-      <Navigation />
-      <Logo />
-
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Navigation />
+        <Logo />
+  
+      </div>
+    );
+  }
 }
 
 export default App;
+
