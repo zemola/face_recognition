@@ -1,4 +1,4 @@
-import './imageLinkForm.css';
+import './ImageLinkForm.css';
 
 function ImageLinkForm() {
   return (
